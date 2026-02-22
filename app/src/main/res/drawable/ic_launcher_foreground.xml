@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Adaptive Icon: 72dp safe zone 중앙 (18~90) -->
+    <group
+        android:translateX="18"
+        android:translateY="18">
+
+        <!-- ═══════════════════════════════════════ -->
+        <!--         SENSIFY 아이콘 디자인             -->
+        <!--  게이지 링 + 펄스 + 빛나는 바늘          -->
+        <!-- ═══════════════════════════════════════ -->
+
+        <!-- 외곽 게이지 링 (얇은 원호) — 사이언 -->
+        <path
+            android:pathData="M36,8 A30,30 0 1,1 8,50"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="2.5"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+
+        <!-- 외곽 게이지 링 하단 (퍼플) -->
+        <path
+            android:pathData="M8,50 A30,30 0 0,1 36,8"
+            android:strokeColor="#8B5CF6"
+            android:strokeWidth="2"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 마크들 — 12시 -->
+        <path
+            android:pathData="M36,6L36,12"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 — 2시 -->
+        <path
+            android:pathData="M57,15L53,20"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 — 3시 -->
+        <path
+            android:pathData="M66,36L60,36"
+            android:strokeColor="#00D4BB"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 — 10시 -->
+        <path
+            android:pathData="M15,15L19,20"
+            android:strokeColor="#8B5CF6"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 — 9시 -->
+        <path
+            android:pathData="M6,36L12,36"
+            android:strokeColor="#7C3AED"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+
+        <!-- 눈금 — 8시 -->
+        <path
+            android:pathData="M10,52L15,49"
+            android:strokeColor="#6D28D9"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round" />
+
+        <!-- 중심점 (글로우) -->
+        <path
+            android:fillColor="#00E5CC"
+            android:pathData="M36,36m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0" />
+
+        <!-- 중심점 내부 (밝은 코어) -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M36,36m-1.8,0a1.8,1.8 0,1 1,3.6 0a1.8,1.8 0,1 1,-3.6 0" />
+
+        <!-- 게이지 바늘 — 2시 방향 가리킴 (사이언→흰) -->
+        <path
+            android:pathData="M36,36L54,18"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round" />
+
+        <!-- 바늘 끝 글로우 포인트 -->
+        <path
+            android:fillColor="#00FFDD"
+            android:pathData="M54,18m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+
+        <!-- ═══ 하단 펄스 웨이브 (감각/센서 느낌) ═══ -->
+        <path
+            android:pathData="M14,56 L22,56 L25,50 L28,62 L31,48 L34,64 L37,46 L40,62 L43,50 L46,56 L58,56"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="1.8"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- 펄스 글로우 (은은한 사이언 라인 아래) -->
+        <path
+            android:pathData="M14,56 L22,56 L25,50 L28,62 L31,48 L34,64 L37,46 L40,62 L43,50 L46,56 L58,56"
+            android:strokeColor="#00E5CC"
+            android:strokeWidth="3.5"
+            android:strokeAlpha="0.15"
+            android:fillColor="#00000000"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+    </group>
+</vector>
